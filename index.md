@@ -1,4 +1,4 @@
-## Welcome to Belmont!
+## Welcome to Belmont! 🏙
 
 Belmont is a neighborhood in the heart of the Bronx, adjacent to several iconic landmarks such as Fordham University, the New York Botanical Gardens, and the Bronx Zoo. Three zip codes encompass the district: 10457, 10458, and 10460. 
 
@@ -17,7 +17,7 @@ Surprisingly, many store owners in the area reported an increase in business sin
 
 ![Image](https://secretnyc.co/wp-content/uploads/2020/06/117176868_3223942747661461_5697372931229265565_n-1024x683.jpg)
 
-### A Foodie's Paradise
+### A Foodie's Paradise 🍜
 
 There are 3 critical factors when considering a neighborhood’s standard for outdoor dining: Safety, accessibility, and diversity.
 - Consumers must be assured that they are protected and can enjoy their eating experience. 
@@ -26,7 +26,7 @@ There are 3 critical factors when considering a neighborhood’s standard for ou
 
 Belmont has been praised for their tight-knit community, reporting a crime rate drop of 66% between 1993 and 2010. The popularity of nearby attractions has ensured that the neighborhood is littered with round-the-clock public and private transportation options. Hundreds of restaurants serving dishes authentic to a myriad of ethnic groups makes Belmont a hotpot of culture and diversity. With these factors in mind, this neighborhood is a knockout in the world of outdoor dining.
 
-### Open Dining: The Statistics
+### Open Dining: The Statistics 📈
 
 Belmont’s open dining arrangements coincide with similar neighborhoods nearby; interestingly, its close proximity to major attraction sites has not turned it into a major statistical anomaly for the Bronx.
 
@@ -44,10 +44,8 @@ One thing that has made Belmont's outdoor dining stand apart: About 70% of resta
 
 Despite the sheer amount of visitors flocking to the area, open dining has developed at the same pace as the rest of the borough; proving that the ever thriving Belmont has been able to salvage its eateries and nightlife after the transformation to the outdoors.
 
-### It's dinnertime!
+### It's dinnertime! 🍔🥂
 
 What are you waiting for? Explore Belmont's outdoor dining today, using our interactive map below!
 
-<dl>
-<iframe src="manhattan.html" width="600" height="400" frameborder="0" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
-</dl>
+<iframe src="=belmont.html" width="600" height="400" frameborder="0" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>

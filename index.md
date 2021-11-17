@@ -26,7 +26,7 @@ There are 3 critical factors when considering a neighborhood’s standard for ou
 
 Belmont has been praised for their tight-knit community, reporting a crime rate drop of 66% between 1993 and 2010. The popularity of nearby attractions has ensured that the neighborhood is littered with round-the-clock public and private transportation options. Hundreds of restaurants serving dishes authentic to a myriad of ethnic groups makes Belmont a hotpot of culture and diversity. With these factors in mind, this neighborhood is a knockout in the world of outdoor dining.
 
-### Open Dining: The Statistics 📈
+### Open Dining: The Statistics 📊
 
 Belmont’s open dining arrangements coincide with similar neighborhoods nearby; interestingly, its close proximity to major attraction sites has not turned it into a major statistical anomaly for the Bronx.
 

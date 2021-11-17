@@ -26,34 +26,26 @@ There are 3 critical factors when considering a neighborhood’s standard for ou
 
 Belmont has been praised for their tight-knit community, reporting a crime rate drop of 66% between 1993 and 2010. The popularity of nearby attractions has ensured that the neighborhood is littered with round-the-clock public and private transportation options. Hundreds of restaurants serving dishes authentic to a myriad of ethnic groups makes Belmont a hotpot of culture and diversity. With these factors in mind, this neighborhood is a knockout in the world of outdoor dining.
 
+### Open Dining: The Statistics
 
-```markdown
-Syntax highlighted code block
+Belmont’s open dining arrangements coincide with similar neighborhoods nearby; interestingly, its close proximity to major attraction sites has not turned it into a major statistical anomaly for the Bronx.
 
-# Header 1
-## Header 2
-### Header 3
+The Bronx reports the largest average sidewalk area out of the 5 boroughs:
 
-- Bulleted
-- List
+![image](https://user-images.githubusercontent.com/92170069/142283646-e829b8b0-f996-4d26-8008-0c5547075c46.png)
 
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-While Belmont’s open dining arrangements for the most part coincide with the other neighborhoods in the borough, an interesting point to note is that its close proximity to major attraction sites has not turned it into a major statistical anomaly for the Bronx. For the restaurants in Belmont, despite the sheer amount of visitors flocking to the area, open dining seems to be at similar rates as the other neighborhoods within the context of the Bronx. In addition, distribution between sidewalk, roadside, and open streets is consistent with the other 5 neighborhoods as well.
+As such, distribution between sidewalk, roadside, and open streets is consistent with others in the borough: an overwhelming number of restaurants serve on sidewalks and only a few serve on roadways. 
 
 ![image](https://user-images.githubusercontent.com/92170069/142282770-06fba33c-4149-49d3-8fe8-7056fafeea76.png)
 
+One thing that has made Belmont's outdoor dining stand apart: About 70% of restaurants serve alcohol, which is higher than the average in the Bronx.
 
-### Support or Contact
+![image](https://user-images.githubusercontent.com/92170069/142283379-cf837dbc-2b70-4caa-8dfc-85725d2e027d.png)
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+Despite the sheer amount of visitors flocking to the area, open dining has developed at the same pace as the rest of the borough; proving that the ever thriving Belmont has been able to salvage its eateries and nightlife after the transformation to the outdoors.
+
+### It's dinnertime!
+
+What are you waiting for? Explore Belmont's outdoor dining today, using our interactive map below!
+
+<iframe src="belmont.html" width="600" height="400" frameborder="0" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>

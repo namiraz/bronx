@@ -48,4 +48,4 @@ Despite the sheer amount of visitors flocking to the area, open dining has devel
 
 What are you waiting for? Explore Belmont's outdoor dining today, using our interactive map below!
 
-<iframe src="belmont.html" width="600" height="400" frameborder="0" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe src="belmont.html" height="500" width="500"></iframe>

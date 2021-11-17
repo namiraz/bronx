@@ -1,0 +1,1583 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_1b2e6d73cba04e2282c9ae06ef093b9e {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_1b2e6d73cba04e2282c9ae06ef093b9e" ></div>
+        
+</body>
+<script>    
+    
+            var map_1b2e6d73cba04e2282c9ae06ef093b9e = L.map(
+                "map_1b2e6d73cba04e2282c9ae06ef093b9e",
+                {
+                    center: [40.855357, -73.887198],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 15,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_ac5e3ae8b20b48239c26ecc14067428f = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_1b2e6d73cba04e2282c9ae06ef093b9e);
+        
+    
+            var marker_3224f9d5490a40fb8d0b884e83567505 = L.marker(
+                [40.857607, -73.886438],
+                {}
+            ).addTo(map_1b2e6d73cba04e2282c9ae06ef093b9e);
+        
+    
+        var popup_82edc92230364020ba56909f745474f8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a439f4401bf54211913bc8cbaaab3949 = $(`<div id="html_a439f4401bf54211913bc8cbaaab3949" style="width: 100.0%; height: 100.0%;">E 189TH street</div>`)[0];
+            popup_82edc92230364020ba56909f745474f8.setContent(html_a439f4401bf54211913bc8cbaaab3949);
+        
+
+        marker_3224f9d5490a40fb8d0b884e83567505.bindPopup(popup_82edc92230364020ba56909f745474f8)
+        ;
+
+        
+    
+    
+            var marker_76dc69d01c014875ad596ef1e0b210f5 = L.marker(
+                [40.855412, -73.887306],
+                {}
+            ).addTo(map_1b2e6d73cba04e2282c9ae06ef093b9e);
+        
+    
+        var popup_3a35cd4466ba4a04b3d45ed55f51face = L.popup({"maxWidth": "100%"});
+
+        
+            var html_92f6bdf05770490597eb4e95e66b855f = $(`<div id="html_92f6bdf05770490597eb4e95e66b855f" style="width: 100.0%; height: 100.0%;">606 EAST  187 STREET</div>`)[0];
+            popup_3a35cd4466ba4a04b3d45ed55f51face.setContent(html_92f6bdf05770490597eb4e95e66b855f);
+        
+
+        marker_76dc69d01c014875ad596ef1e0b210f5.bindPopup(popup_3a35cd4466ba4a04b3d45ed55f51face)
+        ;
+
+        
+    
+    
+            var marker_5b126622e2c64598b1a605cd1fb7ca1c = L.marker(
+                [40.855793, -73.887374],
+                {}
+            ).addTo(map_1b2e6d73cba04e2282c9ae06ef093b9e);
+        
+    
+        var popup_4f1998d60c994774a954fae50e1baab2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b722f6aaf0fb4dec9865eaeff81c7416 = $(`<div id="html_b722f6aaf0fb4dec9865eaeff81c7416" style="width: 100.0%; height: 100.0%;">Arthur Ave</div>`)[0];
+            popup_4f1998d60c994774a954fae50e1baab2.setContent(html_b722f6aaf0fb4dec9865eaeff81c7416);
+        
+
+        marker_5b126622e2c64598b1a605cd1fb7ca1c.bindPopup(popup_4f1998d60c994774a954fae50e1baab2)
+        ;
+
+        
+    
+    
+            var marker_140c56116a87423dad6b962ecd865e14 = L.marker(
+                [40.853826, -73.888006],
+                {}
+            ).addTo(map_1b2e6d73cba04e2282c9ae06ef093b9e);
+        
+    
+        var popup_bfab0f93c13c4762aba8aa212c94ca6b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7fea986d5978493f840ec7599926736d = $(`<div id="html_7fea986d5978493f840ec7599926736d" style="width: 100.0%; height: 100.0%;">Hughes Avenue</div>`)[0];
+            popup_bfab0f93c13c4762aba8aa212c94ca6b.setContent(html_7fea986d5978493f840ec7599926736d);
+        
+
+        marker_140c56116a87423dad6b962ecd865e14.bindPopup(popup_bfab0f93c13c4762aba8aa212c94ca6b)
+        ;
+
+        
+    
+    
+            var marker_9b5743b2b5bf429cb836b87afc0b2a95 = L.marker(
+                [40.854209, -73.886744],
+                {}
+            ).addTo(map_1b2e6d73cba04e2282c9ae06ef093b9e);
+        
+    
+        var popup_4b09e3b997d04d3584157159c6ee5b04 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_36a1a4ae304643e18db7ca21da40497d = $(`<div id="html_36a1a4ae304643e18db7ca21da40497d" style="width: 100.0%; height: 100.0%;">Belmont Avenue</div>`)[0];
+            popup_4b09e3b997d04d3584157159c6ee5b04.setContent(html_36a1a4ae304643e18db7ca21da40497d);
+        
+
+        marker_9b5743b2b5bf429cb836b87afc0b2a95.bindPopup(popup_4b09e3b997d04d3584157159c6ee5b04)
+        ;
+
+        
+    
+    
+            var marker_e2fa8be2f86b424c9f1796f1e5eabc06 = L.marker(
+                [40.855128, -73.886743],
+                {}
+            ).addTo(map_1b2e6d73cba04e2282c9ae06ef093b9e);
+        
+    
+        var popup_9ad30d18b3574d589792028280c11994 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_df49aef0d02141a48fbca1e558c9d858 = $(`<div id="html_df49aef0d02141a48fbca1e558c9d858" style="width: 100.0%; height: 100.0%;">EAST 187 STREET</div>`)[0];
+            popup_9ad30d18b3574d589792028280c11994.setContent(html_df49aef0d02141a48fbca1e558c9d858);
+        
+
+        marker_e2fa8be2f86b424c9f1796f1e5eabc06.bindPopup(popup_9ad30d18b3574d589792028280c11994)
+        ;
+
+        
+    
+    
+            var marker_9a9f59d8d8f942ff9b2c10b5400ac8ab = L.marker(
+                [40.853997, -73.888895],
+                {}
+            ).addTo(map_1b2e6d73cba04e2282c9ae06ef093b9e);
+        
+    
+        var popup_078ef4e1f8704331898232dcfc7bc013 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cc6344afc44c43eb941434f2d3a7c644 = $(`<div id="html_cc6344afc44c43eb941434f2d3a7c644" style="width: 100.0%; height: 100.0%;">Arthur Ave</div>`)[0];
+            popup_078ef4e1f8704331898232dcfc7bc013.setContent(html_cc6344afc44c43eb941434f2d3a7c644);
+        
+
+        marker_9a9f59d8d8f942ff9b2c10b5400ac8ab.bindPopup(popup_078ef4e1f8704331898232dcfc7bc013)
+        ;
+
+        
+    
+    
+            var marker_c71608f4d62b4800add28fc672a56139 = L.marker(
+                [40.857016, -73.886331],
+                {}
+            ).addTo(map_1b2e6d73cba04e2282c9ae06ef093b9e);
+        
+    
+        var popup_47b6909ad1b04891ba48c1d30e62ac30 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fe22e2e0ddd54c98b1274124b8b2bc72 = $(`<div id="html_fe22e2e0ddd54c98b1274124b8b2bc72" style="width: 100.0%; height: 100.0%;">ARTHUR AVE</div>`)[0];
+            popup_47b6909ad1b04891ba48c1d30e62ac30.setContent(html_fe22e2e0ddd54c98b1274124b8b2bc72);
+        
+
+        marker_c71608f4d62b4800add28fc672a56139.bindPopup(popup_47b6909ad1b04891ba48c1d30e62ac30)
+        ;
+
+        
+    
+    
+            var marker_e3b43eb530854b5fac78b44a30cc2c63 = L.marker(
+                [40.862929, -73.88969],
+                {}
+            ).addTo(map_1b2e6d73cba04e2282c9ae06ef093b9e);
+        
+    
+        var popup_7864ba723886402888ff9c9aab425721 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_69c554020a214dc58b0db86e25906b12 = $(`<div id="html_69c554020a214dc58b0db86e25906b12" style="width: 100.0%; height: 100.0%;">Webster Ave</div>`)[0];
+            popup_7864ba723886402888ff9c9aab425721.setContent(html_69c554020a214dc58b0db86e25906b12);
+        
+
+        marker_e3b43eb530854b5fac78b44a30cc2c63.bindPopup(popup_7864ba723886402888ff9c9aab425721)
+        ;
+
+        
+    
+    
+            var marker_741b4f13c8af468c8fd67b4221a2d0e5 = L.marker(
+                [40.853819, -73.88908],
+                {}
+            ).addTo(map_1b2e6d73cba04e2282c9ae06ef093b9e);
+        
+    
+        var popup_54f9edda3a994e3491e5367599f1fc7e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2bba342049be4bb199d557278ea31d19 = $(`<div id="html_2bba342049be4bb199d557278ea31d19" style="width: 100.0%; height: 100.0%;">arthur ave</div>`)[0];
+            popup_54f9edda3a994e3491e5367599f1fc7e.setContent(html_2bba342049be4bb199d557278ea31d19);
+        
+
+        marker_741b4f13c8af468c8fd67b4221a2d0e5.bindPopup(popup_54f9edda3a994e3491e5367599f1fc7e)
+        ;
+
+        
+    
+    
+            var marker_00e02a07d90b45abbde39b02e30451a2 = L.marker(
+                [40.855128, -73.886743],
+                {}
+            ).addTo(map_1b2e6d73cba04e2282c9ae06ef093b9e);
+        
+    
+        var popup_65e5c8ad50df4813a81aac217512ba7b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e94fd852ab4e4d8fa36dac621871f8f3 = $(`<div id="html_e94fd852ab4e4d8fa36dac621871f8f3" style="width: 100.0%; height: 100.0%;">East 187th Street</div>`)[0];
+            popup_65e5c8ad50df4813a81aac217512ba7b.setContent(html_e94fd852ab4e4d8fa36dac621871f8f3);
+        
+
+        marker_00e02a07d90b45abbde39b02e30451a2.bindPopup(popup_65e5c8ad50df4813a81aac217512ba7b)
+        ;
+
+        
+    
+    
+            var marker_37575aab34f44c26a9fef8e22ec5b6a0 = L.marker(
+                [40.858778, -73.885836],
+                {}
+            ).addTo(map_1b2e6d73cba04e2282c9ae06ef093b9e);
+        
+    
+        var popup_f4f094b8c6ff4983ac9e275a8b48232e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c114d5f8b9ba466eb9669d71a249b431 = $(`<div id="html_c114d5f8b9ba466eb9669d71a249b431" style="width: 100.0%; height: 100.0%;">E FORDHAM RD</div>`)[0];
+            popup_f4f094b8c6ff4983ac9e275a8b48232e.setContent(html_c114d5f8b9ba466eb9669d71a249b431);
+        
+
+        marker_37575aab34f44c26a9fef8e22ec5b6a0.bindPopup(popup_f4f094b8c6ff4983ac9e275a8b48232e)
+        ;
+
+        
+    
+    
+            var marker_17152b08ecac452a9f05f1f2734d6ca4 = L.marker(
+                [40.85454, -73.888446],
+                {}
+            ).addTo(map_1b2e6d73cba04e2282c9ae06ef093b9e);
+        
+    
+        var popup_6faae78086994f7b9cdc53eb97237ca9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_60a2e8613d8b49da8ee53b5e95708303 = $(`<div id="html_60a2e8613d8b49da8ee53b5e95708303" style="width: 100.0%; height: 100.0%;">Arthur Ave</div>`)[0];
+            popup_6faae78086994f7b9cdc53eb97237ca9.setContent(html_60a2e8613d8b49da8ee53b5e95708303);
+        
+
+        marker_17152b08ecac452a9f05f1f2734d6ca4.bindPopup(popup_6faae78086994f7b9cdc53eb97237ca9)
+        ;
+
+        
+    
+    
+            var marker_cc32fd8b8c744b0386612603bab4492c = L.marker(
+                [40.854247, -73.888674],
+                {}
+            ).addTo(map_1b2e6d73cba04e2282c9ae06ef093b9e);
+        
+    
+        var popup_e86562cdc28142ddac6e50d6c74cb522 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_504311a704c04b798e4fa6787f33b96f = $(`<div id="html_504311a704c04b798e4fa6787f33b96f" style="width: 100.0%; height: 100.0%;">Arthur Avenue</div>`)[0];
+            popup_e86562cdc28142ddac6e50d6c74cb522.setContent(html_504311a704c04b798e4fa6787f33b96f);
+        
+
+        marker_cc32fd8b8c744b0386612603bab4492c.bindPopup(popup_e86562cdc28142ddac6e50d6c74cb522)
+        ;
+
+        
+    
+    
+            var marker_0d85b1e881ac472d84f353979c114ed7 = L.marker(
+                [40.853577, -73.888394],
+                {}
+            ).addTo(map_1b2e6d73cba04e2282c9ae06ef093b9e);
+        
+    
+        var popup_c01b688a3edb4faaa0b1ca30ff84ebc7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9a514ee66764480d96937e321a098e4f = $(`<div id="html_9a514ee66764480d96937e321a098e4f" style="width: 100.0%; height: 100.0%;">603 CRESCENT AVENUE</div>`)[0];
+            popup_c01b688a3edb4faaa0b1ca30ff84ebc7.setContent(html_9a514ee66764480d96937e321a098e4f);
+        
+
+        marker_0d85b1e881ac472d84f353979c114ed7.bindPopup(popup_c01b688a3edb4faaa0b1ca30ff84ebc7)
+        ;
+
+        
+    
+    
+            var marker_a6858eb4a5fe4b29aa650fe4ff32cabd = L.marker(
+                [40.853577, -73.888394],
+                {}
+            ).addTo(map_1b2e6d73cba04e2282c9ae06ef093b9e);
+        
+    
+        var popup_674a2d48db564a3cae8fbb3ab74cc384 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1687bac845b9491bae437e7c98ccafb8 = $(`<div id="html_1687bac845b9491bae437e7c98ccafb8" style="width: 100.0%; height: 100.0%;">603 CRESCENT AVENUE</div>`)[0];
+            popup_674a2d48db564a3cae8fbb3ab74cc384.setContent(html_1687bac845b9491bae437e7c98ccafb8);
+        
+
+        marker_a6858eb4a5fe4b29aa650fe4ff32cabd.bindPopup(popup_674a2d48db564a3cae8fbb3ab74cc384)
+        ;
+
+        
+    
+    
+            var marker_c5b00bc9d1a247d5925bbcb6d9f1c620 = L.marker(
+                [40.857173, -73.886197],
+                {}
+            ).addTo(map_1b2e6d73cba04e2282c9ae06ef093b9e);
+        
+    
+        var popup_66f4ed4881a346cdbbbc6b3de4f99445 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d5ac7783b66f4f46a42e8dcaebd076f1 = $(`<div id="html_d5ac7783b66f4f46a42e8dcaebd076f1" style="width: 100.0%; height: 100.0%;">Arthur Ave</div>`)[0];
+            popup_66f4ed4881a346cdbbbc6b3de4f99445.setContent(html_d5ac7783b66f4f46a42e8dcaebd076f1);
+        
+
+        marker_c5b00bc9d1a247d5925bbcb6d9f1c620.bindPopup(popup_66f4ed4881a346cdbbbc6b3de4f99445)
+        ;
+
+        
+    
+    
+            var marker_e4270e6650d84597939b6136bf89abc7 = L.marker(
+                [40.85505, -73.887979],
+                {}
+            ).addTo(map_1b2e6d73cba04e2282c9ae06ef093b9e);
+        
+    
+        var popup_66f757b5d69a4f96b205fc69d7a62201 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_85fe090399774eecbde4f4fc8b5cb102 = $(`<div id="html_85fe090399774eecbde4f4fc8b5cb102" style="width: 100.0%; height: 100.0%;">2376 ARTHUR AVENUE</div>`)[0];
+            popup_66f757b5d69a4f96b205fc69d7a62201.setContent(html_85fe090399774eecbde4f4fc8b5cb102);
+        
+
+        marker_e4270e6650d84597939b6136bf89abc7.bindPopup(popup_66f757b5d69a4f96b205fc69d7a62201)
+        ;
+
+        
+    
+    
+            var marker_15ed93ac6aaf4648805f0a6e053622cf = L.marker(
+                [40.854001, -73.887887],
+                {}
+            ).addTo(map_1b2e6d73cba04e2282c9ae06ef093b9e);
+        
+    
+        var popup_08277a446373494e8d07d083435866ed = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1b9c6d2a56294aa6b1883be05a854dfc = $(`<div id="html_1b9c6d2a56294aa6b1883be05a854dfc" style="width: 100.0%; height: 100.0%;">Hughes Ave</div>`)[0];
+            popup_08277a446373494e8d07d083435866ed.setContent(html_1b9c6d2a56294aa6b1883be05a854dfc);
+        
+
+        marker_15ed93ac6aaf4648805f0a6e053622cf.bindPopup(popup_08277a446373494e8d07d083435866ed)
+        ;
+
+        
+    
+    
+            var marker_cb3881a175f34b2f9345e437e07fed22 = L.marker(
+                [40.855277, -73.887035],
+                {}
+            ).addTo(map_1b2e6d73cba04e2282c9ae06ef093b9e);
+        
+    
+        var popup_a73ae4ba0e7b474b8a225fe3d9412815 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a651348c9b024b50bbf178ba4853c322 = $(`<div id="html_a651348c9b024b50bbf178ba4853c322" style="width: 100.0%; height: 100.0%;">East 187 street</div>`)[0];
+            popup_a73ae4ba0e7b474b8a225fe3d9412815.setContent(html_a651348c9b024b50bbf178ba4853c322);
+        
+
+        marker_cb3881a175f34b2f9345e437e07fed22.bindPopup(popup_a73ae4ba0e7b474b8a225fe3d9412815)
+        ;
+
+        
+    
+    
+            var marker_ca4432e62d8f4458944143b2281603e9 = L.marker(
+                [40.854514, -73.890243],
+                {}
+            ).addTo(map_1b2e6d73cba04e2282c9ae06ef093b9e);
+        
+    
+        var popup_b70fcdb6dd08459184c11fd77f8d29ce = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1d67fe608bcd40a88a9b9b00d6f850be = $(`<div id="html_1d67fe608bcd40a88a9b9b00d6f850be" style="width: 100.0%; height: 100.0%;">E 184th street</div>`)[0];
+            popup_b70fcdb6dd08459184c11fd77f8d29ce.setContent(html_1d67fe608bcd40a88a9b9b00d6f850be);
+        
+
+        marker_ca4432e62d8f4458944143b2281603e9.bindPopup(popup_b70fcdb6dd08459184c11fd77f8d29ce)
+        ;
+
+        
+    
+    
+            var marker_d49fcaf589e845ac903025a6cf2a1647 = L.marker(
+                [40.856589, -73.884409],
+                {}
+            ).addTo(map_1b2e6d73cba04e2282c9ae06ef093b9e);
+        
+    
+        var popup_c553e908cbfa42aea5f7a660ed06179d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7662937c890c444ba02f35be3dbc1653 = $(`<div id="html_7662937c890c444ba02f35be3dbc1653" style="width: 100.0%; height: 100.0%;">657 EAST  189 STREET</div>`)[0];
+            popup_c553e908cbfa42aea5f7a660ed06179d.setContent(html_7662937c890c444ba02f35be3dbc1653);
+        
+
+        marker_d49fcaf589e845ac903025a6cf2a1647.bindPopup(popup_c553e908cbfa42aea5f7a660ed06179d)
+        ;
+
+        
+    
+    
+            var marker_56397478de2b496fbb69fd1417678ee9 = L.marker(
+                [40.854257, -73.888693],
+                {}
+            ).addTo(map_1b2e6d73cba04e2282c9ae06ef093b9e);
+        
+    
+        var popup_785cfff4d051468bab4059c59ef53ddd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d79639abc30140bbb6c69aa22df48b33 = $(`<div id="html_d79639abc30140bbb6c69aa22df48b33" style="width: 100.0%; height: 100.0%;">Arthur Avenue</div>`)[0];
+            popup_785cfff4d051468bab4059c59ef53ddd.setContent(html_d79639abc30140bbb6c69aa22df48b33);
+        
+
+        marker_56397478de2b496fbb69fd1417678ee9.bindPopup(popup_785cfff4d051468bab4059c59ef53ddd)
+        ;
+
+        
+    
+    
+            var marker_ad2149e324ee4136a2889a4aac470e39 = L.marker(
+                [40.857206, -73.886172],
+                {}
+            ).addTo(map_1b2e6d73cba04e2282c9ae06ef093b9e);
+        
+    
+        var popup_44b6dfae87c74a4d9ae80c8fe45aa000 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_65893f0d68df4c1ea89ce052782c21e5 = $(`<div id="html_65893f0d68df4c1ea89ce052782c21e5" style="width: 100.0%; height: 100.0%;">Arthur Ave</div>`)[0];
+            popup_44b6dfae87c74a4d9ae80c8fe45aa000.setContent(html_65893f0d68df4c1ea89ce052782c21e5);
+        
+
+        marker_ad2149e324ee4136a2889a4aac470e39.bindPopup(popup_44b6dfae87c74a4d9ae80c8fe45aa000)
+        ;
+
+        
+    
+    
+            var marker_1e92e0f87e464d69aca4a7d15f5319ab = L.marker(
+                [40.855061, -73.887997],
+                {}
+            ).addTo(map_1b2e6d73cba04e2282c9ae06ef093b9e);
+        
+    
+        var popup_40b47333977c43eea5760327c7d95287 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b56fe2677e7a4fe88657bfa2ae530f84 = $(`<div id="html_b56fe2677e7a4fe88657bfa2ae530f84" style="width: 100.0%; height: 100.0%;">arthur ave</div>`)[0];
+            popup_40b47333977c43eea5760327c7d95287.setContent(html_b56fe2677e7a4fe88657bfa2ae530f84);
+        
+
+        marker_1e92e0f87e464d69aca4a7d15f5319ab.bindPopup(popup_40b47333977c43eea5760327c7d95287)
+        ;
+
+        
+    
+    
+            var marker_618b18ccd4c64ead9ba4538d37d1e154 = L.marker(
+                [40.855821, -73.887327],
+                {}
+            ).addTo(map_1b2e6d73cba04e2282c9ae06ef093b9e);
+        
+    
+        var popup_872d5e55450149cd9d2df8cbb73b60a1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2483db90929e448caad654b3c2913c5b = $(`<div id="html_2483db90929e448caad654b3c2913c5b" style="width: 100.0%; height: 100.0%;">Arthur Avenue</div>`)[0];
+            popup_872d5e55450149cd9d2df8cbb73b60a1.setContent(html_2483db90929e448caad654b3c2913c5b);
+        
+
+        marker_618b18ccd4c64ead9ba4538d37d1e154.bindPopup(popup_872d5e55450149cd9d2df8cbb73b60a1)
+        ;
+
+        
+    
+    
+            var marker_6dbdd25ae71646bb9798975296bb3156 = L.marker(
+                [40.854247, -73.888674],
+                {}
+            ).addTo(map_1b2e6d73cba04e2282c9ae06ef093b9e);
+        
+    
+        var popup_a03994e2c86d4676b8715b5c3648208e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e7a4399aecd041e2bdc3edc8fc76bd5b = $(`<div id="html_e7a4399aecd041e2bdc3edc8fc76bd5b" style="width: 100.0%; height: 100.0%;">Arthur Avenue</div>`)[0];
+            popup_a03994e2c86d4676b8715b5c3648208e.setContent(html_e7a4399aecd041e2bdc3edc8fc76bd5b);
+        
+
+        marker_6dbdd25ae71646bb9798975296bb3156.bindPopup(popup_a03994e2c86d4676b8715b5c3648208e)
+        ;
+
+        
+    
+    
+            var marker_09f5beff3e684a49a19de475665018aa = L.marker(
+                [40.85505, -73.887979],
+                {}
+            ).addTo(map_1b2e6d73cba04e2282c9ae06ef093b9e);
+        
+    
+        var popup_b5f49f7e9fe64c90b02d0c62bd7aa821 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cc0ebdc684d54fb99e6d5bfd08c83864 = $(`<div id="html_cc0ebdc684d54fb99e6d5bfd08c83864" style="width: 100.0%; height: 100.0%;">Arthur ave</div>`)[0];
+            popup_b5f49f7e9fe64c90b02d0c62bd7aa821.setContent(html_cc0ebdc684d54fb99e6d5bfd08c83864);
+        
+
+        marker_09f5beff3e684a49a19de475665018aa.bindPopup(popup_b5f49f7e9fe64c90b02d0c62bd7aa821)
+        ;
+
+        
+    
+    
+            var marker_4ce48e9fbb014c6ea41372d99e2cab74 = L.marker(
+                [40.854414, -73.888555],
+                {}
+            ).addTo(map_1b2e6d73cba04e2282c9ae06ef093b9e);
+        
+    
+        var popup_4a270cc2276a4173b0d3c091bc5ca793 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ca586bf77e584e229bf875c936f689cf = $(`<div id="html_ca586bf77e584e229bf875c936f689cf" style="width: 100.0%; height: 100.0%;">Arthur Ave</div>`)[0];
+            popup_4a270cc2276a4173b0d3c091bc5ca793.setContent(html_ca586bf77e584e229bf875c936f689cf);
+        
+
+        marker_4ce48e9fbb014c6ea41372d99e2cab74.bindPopup(popup_4a270cc2276a4173b0d3c091bc5ca793)
+        ;
+
+        
+    
+    
+            var marker_19762311aa524a40a16b1cf083137881 = L.marker(
+                [40.854691, -73.88807],
+                {}
+            ).addTo(map_1b2e6d73cba04e2282c9ae06ef093b9e);
+        
+    
+        var popup_d0d5d84df5754f489bd3fd9890427dcc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9c23930c331e4355886b79eb0ae37fc9 = $(`<div id="html_9c23930c331e4355886b79eb0ae37fc9" style="width: 100.0%; height: 100.0%;">E 186th Street</div>`)[0];
+            popup_d0d5d84df5754f489bd3fd9890427dcc.setContent(html_9c23930c331e4355886b79eb0ae37fc9);
+        
+
+        marker_19762311aa524a40a16b1cf083137881.bindPopup(popup_d0d5d84df5754f489bd3fd9890427dcc)
+        ;
+
+        
+    
+    
+            var marker_0cc7460c7810436caf6846b1bfb6ba6c = L.marker(
+                [40.854317, -73.885041],
+                {}
+            ).addTo(map_1b2e6d73cba04e2282c9ae06ef093b9e);
+        
+    
+        var popup_f6d258c4a89447c194e79253e62e9207 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7d57d644423b432996882012da8988ed = $(`<div id="html_7d57d644423b432996882012da8988ed" style="width: 100.0%; height: 100.0%;">East 187th Street</div>`)[0];
+            popup_f6d258c4a89447c194e79253e62e9207.setContent(html_7d57d644423b432996882012da8988ed);
+        
+
+        marker_0cc7460c7810436caf6846b1bfb6ba6c.bindPopup(popup_f6d258c4a89447c194e79253e62e9207)
+        ;
+
+        
+    
+    
+            var marker_eb9bdd4470a34f419448f2309387efe6 = L.marker(
+                [40.85642, -73.891002],
+                {}
+            ).addTo(map_1b2e6d73cba04e2282c9ae06ef093b9e);
+        
+    
+        var popup_093504eeff92410faae31b8ec6c43fd2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c025cf9296324e568deda77d36305a8f = $(`<div id="html_c025cf9296324e568deda77d36305a8f" style="width: 100.0%; height: 100.0%;">3rd Avenue</div>`)[0];
+            popup_093504eeff92410faae31b8ec6c43fd2.setContent(html_c025cf9296324e568deda77d36305a8f);
+        
+
+        marker_eb9bdd4470a34f419448f2309387efe6.bindPopup(popup_093504eeff92410faae31b8ec6c43fd2)
+        ;
+
+        
+    
+    
+            var marker_973345541e684c538fc1dfef84f2a3cf = L.marker(
+                [40.856032, -73.887171],
+                {}
+            ).addTo(map_1b2e6d73cba04e2282c9ae06ef093b9e);
+        
+    
+        var popup_93de932559fc4fe18d2104e9066e6fe7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_98ad09eee68f4433af2ed5e60eb32d11 = $(`<div id="html_98ad09eee68f4433af2ed5e60eb32d11" style="width: 100.0%; height: 100.0%;">Arthur ave</div>`)[0];
+            popup_93de932559fc4fe18d2104e9066e6fe7.setContent(html_98ad09eee68f4433af2ed5e60eb32d11);
+        
+
+        marker_973345541e684c538fc1dfef84f2a3cf.bindPopup(popup_93de932559fc4fe18d2104e9066e6fe7)
+        ;
+
+        
+    
+    
+            var marker_e31cd3b3b01c4ccc922e7c5fca403c41 = L.marker(
+                [40.854247, -73.888674],
+                {}
+            ).addTo(map_1b2e6d73cba04e2282c9ae06ef093b9e);
+        
+    
+        var popup_cb92755e9f2f4a8d89b14956c03727d8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ea705e6ead224cd8b46790c959476b5c = $(`<div id="html_ea705e6ead224cd8b46790c959476b5c" style="width: 100.0%; height: 100.0%;">arthur avenue</div>`)[0];
+            popup_cb92755e9f2f4a8d89b14956c03727d8.setContent(html_ea705e6ead224cd8b46790c959476b5c);
+        
+
+        marker_e31cd3b3b01c4ccc922e7c5fca403c41.bindPopup(popup_cb92755e9f2f4a8d89b14956c03727d8)
+        ;
+
+        
+    
+    
+            var marker_c83ef49363a84494aa93052fe1924ed2 = L.marker(
+                [40.854216, -73.888703],
+                {}
+            ).addTo(map_1b2e6d73cba04e2282c9ae06ef093b9e);
+        
+    
+        var popup_79a38e3033ef4b1a94462c776144a5ca = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6a0037470dac400d9c70c053a02ec635 = $(`<div id="html_6a0037470dac400d9c70c053a02ec635" style="width: 100.0%; height: 100.0%;">Arthur Avenue</div>`)[0];
+            popup_79a38e3033ef4b1a94462c776144a5ca.setContent(html_6a0037470dac400d9c70c053a02ec635);
+        
+
+        marker_c83ef49363a84494aa93052fe1924ed2.bindPopup(popup_79a38e3033ef4b1a94462c776144a5ca)
+        ;
+
+        
+    
+    
+            var marker_01e652a5da6e41138b95305fab9751b4 = L.marker(
+                [40.854131, -73.888805],
+                {}
+            ).addTo(map_1b2e6d73cba04e2282c9ae06ef093b9e);
+        
+    
+        var popup_a50b230126154814977ffbbab806bf4e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_972244c562784fefbd18208277fe2237 = $(`<div id="html_972244c562784fefbd18208277fe2237" style="width: 100.0%; height: 100.0%;">Arthur Ave</div>`)[0];
+            popup_a50b230126154814977ffbbab806bf4e.setContent(html_972244c562784fefbd18208277fe2237);
+        
+
+        marker_01e652a5da6e41138b95305fab9751b4.bindPopup(popup_a50b230126154814977ffbbab806bf4e)
+        ;
+
+        
+    
+    
+            var marker_9b6946130c5247488bdddad848c29c80 = L.marker(
+                [40.854257, -73.888693],
+                {}
+            ).addTo(map_1b2e6d73cba04e2282c9ae06ef093b9e);
+        
+    
+        var popup_ece1bbb42bd7414b9183d0cae40252b0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_46dbfa68b86d49bb8c6d6942b8ac069c = $(`<div id="html_46dbfa68b86d49bb8c6d6942b8ac069c" style="width: 100.0%; height: 100.0%;">Arthur ave</div>`)[0];
+            popup_ece1bbb42bd7414b9183d0cae40252b0.setContent(html_46dbfa68b86d49bb8c6d6942b8ac069c);
+        
+
+        marker_9b6946130c5247488bdddad848c29c80.bindPopup(popup_ece1bbb42bd7414b9183d0cae40252b0)
+        ;
+
+        
+    
+    
+            var marker_4963a7cff1614cf1b7956c1cf78e0c12 = L.marker(
+                [40.855494, -73.887469],
+                {}
+            ).addTo(map_1b2e6d73cba04e2282c9ae06ef093b9e);
+        
+    
+        var popup_1b139c8e9cd443328d7d84471d9fbace = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3464fb54ebc041dca7ded6c623cb0987 = $(`<div id="html_3464fb54ebc041dca7ded6c623cb0987" style="width: 100.0%; height: 100.0%;">187st</div>`)[0];
+            popup_1b139c8e9cd443328d7d84471d9fbace.setContent(html_3464fb54ebc041dca7ded6c623cb0987);
+        
+
+        marker_4963a7cff1614cf1b7956c1cf78e0c12.bindPopup(popup_1b139c8e9cd443328d7d84471d9fbace)
+        ;
+
+        
+    
+    
+            var marker_b507f694507e487a81be14b56a889d8c = L.marker(
+                [40.855494, -73.887469],
+                {}
+            ).addTo(map_1b2e6d73cba04e2282c9ae06ef093b9e);
+        
+    
+        var popup_ac839c78e7ab43cfa821663617d2fbc0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_934568d404484e889db46b65713ea94c = $(`<div id="html_934568d404484e889db46b65713ea94c" style="width: 100.0%; height: 100.0%;">187st</div>`)[0];
+            popup_ac839c78e7ab43cfa821663617d2fbc0.setContent(html_934568d404484e889db46b65713ea94c);
+        
+
+        marker_b507f694507e487a81be14b56a889d8c.bindPopup(popup_ac839c78e7ab43cfa821663617d2fbc0)
+        ;
+
+        
+    
+    
+            var marker_838f8d3b09414745a56eb8e09ba6689d = L.marker(
+                [40.857329, -73.885907],
+                {}
+            ).addTo(map_1b2e6d73cba04e2282c9ae06ef093b9e);
+        
+    
+        var popup_c9df907a28ea4722aa98a8f31757642a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3620d39ba38644728e65ba0ace31b475 = $(`<div id="html_3620d39ba38644728e65ba0ace31b475" style="width: 100.0%; height: 100.0%;">E 189th Street</div>`)[0];
+            popup_c9df907a28ea4722aa98a8f31757642a.setContent(html_3620d39ba38644728e65ba0ace31b475);
+        
+
+        marker_838f8d3b09414745a56eb8e09ba6689d.bindPopup(popup_c9df907a28ea4722aa98a8f31757642a)
+        ;
+
+        
+    
+    
+            var marker_b921c116053249e38e68ba1a482b329d = L.marker(
+                [40.853997, -73.888895],
+                {}
+            ).addTo(map_1b2e6d73cba04e2282c9ae06ef093b9e);
+        
+    
+        var popup_f4b6c54c74444124822a92bfbd67a7a8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d3aa981813c1419da9def136c4adc47c = $(`<div id="html_d3aa981813c1419da9def136c4adc47c" style="width: 100.0%; height: 100.0%;">Arthur Ave</div>`)[0];
+            popup_f4b6c54c74444124822a92bfbd67a7a8.setContent(html_d3aa981813c1419da9def136c4adc47c);
+        
+
+        marker_b921c116053249e38e68ba1a482b329d.bindPopup(popup_f4b6c54c74444124822a92bfbd67a7a8)
+        ;
+
+        
+    
+    
+            var marker_7c5a5907746d4247a13dc87e83686d76 = L.marker(
+                [40.853651, -73.8892],
+                {}
+            ).addTo(map_1b2e6d73cba04e2282c9ae06ef093b9e);
+        
+    
+        var popup_27a544ac17eb4d409c66097a63b0c8e0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ff8be28c1e2249ffbb1f72805bc9dd69 = $(`<div id="html_ff8be28c1e2249ffbb1f72805bc9dd69" style="width: 100.0%; height: 100.0%;">ARTHUR AVE</div>`)[0];
+            popup_27a544ac17eb4d409c66097a63b0c8e0.setContent(html_ff8be28c1e2249ffbb1f72805bc9dd69);
+        
+
+        marker_7c5a5907746d4247a13dc87e83686d76.bindPopup(popup_27a544ac17eb4d409c66097a63b0c8e0)
+        ;
+
+        
+    
+    
+            var marker_f4f6c379b25a46c899bf83205f483a13 = L.marker(
+                [40.854075, -73.884164],
+                {}
+            ).addTo(map_1b2e6d73cba04e2282c9ae06ef093b9e);
+        
+    
+        var popup_039635ad19c54128832f6bfdbee496c0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_40230baaa4e848519e705f358459f2b0 = $(`<div id="html_40230baaa4e848519e705f358459f2b0" style="width: 100.0%; height: 100.0%;">187</div>`)[0];
+            popup_039635ad19c54128832f6bfdbee496c0.setContent(html_40230baaa4e848519e705f358459f2b0);
+        
+
+        marker_f4f6c379b25a46c899bf83205f483a13.bindPopup(popup_039635ad19c54128832f6bfdbee496c0)
+        ;
+
+        
+    
+    
+            var marker_56b324bdacdd4726ae63b1c5dc52bf8d = L.marker(
+                [40.854038, -73.888888],
+                {}
+            ).addTo(map_1b2e6d73cba04e2282c9ae06ef093b9e);
+        
+    
+        var popup_0f6fcdccd0f441cf96b072f8be178105 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_78aac0ee99034b71b35d7f59fbcc0ce4 = $(`<div id="html_78aac0ee99034b71b35d7f59fbcc0ce4" style="width: 100.0%; height: 100.0%;">Arthur ave</div>`)[0];
+            popup_0f6fcdccd0f441cf96b072f8be178105.setContent(html_78aac0ee99034b71b35d7f59fbcc0ce4);
+        
+
+        marker_56b324bdacdd4726ae63b1c5dc52bf8d.bindPopup(popup_0f6fcdccd0f441cf96b072f8be178105)
+        ;
+
+        
+    
+    
+            var marker_d609042bbeb946fb8fc49d361f486cc9 = L.marker(
+                [40.854131, -73.888805],
+                {}
+            ).addTo(map_1b2e6d73cba04e2282c9ae06ef093b9e);
+        
+    
+        var popup_3d2dfb29ca904ed68bdb577dc9e9ade9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a93d7a44380c4a49b5bce30630dec83d = $(`<div id="html_a93d7a44380c4a49b5bce30630dec83d" style="width: 100.0%; height: 100.0%;">Arthur Avenue</div>`)[0];
+            popup_3d2dfb29ca904ed68bdb577dc9e9ade9.setContent(html_a93d7a44380c4a49b5bce30630dec83d);
+        
+
+        marker_d609042bbeb946fb8fc49d361f486cc9.bindPopup(popup_3d2dfb29ca904ed68bdb577dc9e9ade9)
+        ;
+
+        
+    
+    
+            var marker_c96edaa66c0840dea5b606d7680bb238 = L.marker(
+                [40.854101, -73.88883],
+                {}
+            ).addTo(map_1b2e6d73cba04e2282c9ae06ef093b9e);
+        
+    
+        var popup_468d09636bfe423486740f10fa5fc590 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2cf4b6c359a2461fb9ec5c28e1189dec = $(`<div id="html_2cf4b6c359a2461fb9ec5c28e1189dec" style="width: 100.0%; height: 100.0%;">Arthur Avenue</div>`)[0];
+            popup_468d09636bfe423486740f10fa5fc590.setContent(html_2cf4b6c359a2461fb9ec5c28e1189dec);
+        
+
+        marker_c96edaa66c0840dea5b606d7680bb238.bindPopup(popup_468d09636bfe423486740f10fa5fc590)
+        ;
+
+        
+    
+    
+            var marker_55695ed2dcdf4586b34bfe215aea3136 = L.marker(
+                [40.857535, -73.885893],
+                {}
+            ).addTo(map_1b2e6d73cba04e2282c9ae06ef093b9e);
+        
+    
+        var popup_a5babaf63ec04f95866154c558a78d74 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0bb37e1b47044073881bfef8c8d10411 = $(`<div id="html_0bb37e1b47044073881bfef8c8d10411" style="width: 100.0%; height: 100.0%;">Arthur ave</div>`)[0];
+            popup_a5babaf63ec04f95866154c558a78d74.setContent(html_0bb37e1b47044073881bfef8c8d10411);
+        
+
+        marker_55695ed2dcdf4586b34bfe215aea3136.bindPopup(popup_a5babaf63ec04f95866154c558a78d74)
+        ;
+
+        
+    
+    
+            var marker_d81712b01a854c89b24edcd4f061ff32 = L.marker(
+                [40.855821, -73.887327],
+                {}
+            ).addTo(map_1b2e6d73cba04e2282c9ae06ef093b9e);
+        
+    
+        var popup_0681d9563c2948efa92931815a0c530c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9837fc2d678e46cd8541d6a925711213 = $(`<div id="html_9837fc2d678e46cd8541d6a925711213" style="width: 100.0%; height: 100.0%;">Arthur Avenue</div>`)[0];
+            popup_0681d9563c2948efa92931815a0c530c.setContent(html_9837fc2d678e46cd8541d6a925711213);
+        
+
+        marker_d81712b01a854c89b24edcd4f061ff32.bindPopup(popup_0681d9563c2948efa92931815a0c530c)
+        ;
+
+        
+    
+    
+            var marker_9ef13bb929fe43538346830ad87f7fd5 = L.marker(
+                [40.857173, -73.886197],
+                {}
+            ).addTo(map_1b2e6d73cba04e2282c9ae06ef093b9e);
+        
+    
+        var popup_d0afef8a94c545df9e9b2e7e061db484 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e52d82e9f9c048aab50ac6c5f40bad8b = $(`<div id="html_e52d82e9f9c048aab50ac6c5f40bad8b" style="width: 100.0%; height: 100.0%;">Arthur Ave</div>`)[0];
+            popup_d0afef8a94c545df9e9b2e7e061db484.setContent(html_e52d82e9f9c048aab50ac6c5f40bad8b);
+        
+
+        marker_9ef13bb929fe43538346830ad87f7fd5.bindPopup(popup_d0afef8a94c545df9e9b2e7e061db484)
+        ;
+
+        
+    
+    
+            var marker_5cf87d03ee6b4182b4e81356143a0130 = L.marker(
+                [40.854672, -73.885757],
+                {}
+            ).addTo(map_1b2e6d73cba04e2282c9ae06ef093b9e);
+        
+    
+        var popup_aeef5269affc4d7587044b6f1e0a1bea = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a13e87d26ea74c29929b2d24769fe401 = $(`<div id="html_a13e87d26ea74c29929b2d24769fe401" style="width: 100.0%; height: 100.0%;">EAST 187TH STREET</div>`)[0];
+            popup_aeef5269affc4d7587044b6f1e0a1bea.setContent(html_a13e87d26ea74c29929b2d24769fe401);
+        
+
+        marker_5cf87d03ee6b4182b4e81356143a0130.bindPopup(popup_aeef5269affc4d7587044b6f1e0a1bea)
+        ;
+
+        
+    
+    
+            var marker_d247a59ec6d34872834a18d070581df6 = L.marker(
+                [40.854194, -73.88875],
+                {}
+            ).addTo(map_1b2e6d73cba04e2282c9ae06ef093b9e);
+        
+    
+        var popup_eff81adc183a4996b5d0a0bf74e4cbcc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_72d33bb3a9da43f9b2cabcbd25174cdd = $(`<div id="html_72d33bb3a9da43f9b2cabcbd25174cdd" style="width: 100.0%; height: 100.0%;">Arthur Avenue</div>`)[0];
+            popup_eff81adc183a4996b5d0a0bf74e4cbcc.setContent(html_72d33bb3a9da43f9b2cabcbd25174cdd);
+        
+
+        marker_d247a59ec6d34872834a18d070581df6.bindPopup(popup_eff81adc183a4996b5d0a0bf74e4cbcc)
+        ;
+
+        
+    
+    
+            var marker_536fa608f7754451adca922e0e1e3142 = L.marker(
+                [40.855297, -73.887798],
+                {}
+            ).addTo(map_1b2e6d73cba04e2282c9ae06ef093b9e);
+        
+    
+        var popup_ee4ed99a02174525a41b96745d1d9966 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0bfbba495e0a4440a34ec6adc421d4d2 = $(`<div id="html_0bfbba495e0a4440a34ec6adc421d4d2" style="width: 100.0%; height: 100.0%;">Arthur Ave</div>`)[0];
+            popup_ee4ed99a02174525a41b96745d1d9966.setContent(html_0bfbba495e0a4440a34ec6adc421d4d2);
+        
+
+        marker_536fa608f7754451adca922e0e1e3142.bindPopup(popup_ee4ed99a02174525a41b96745d1d9966)
+        ;
+
+        
+    
+    
+            var marker_17809aee6d214f56ad03f3bdede9c5be = L.marker(
+                [40.85505, -73.887979],
+                {}
+            ).addTo(map_1b2e6d73cba04e2282c9ae06ef093b9e);
+        
+    
+        var popup_d6daf23323d04ea8ad9ab9140d552817 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_97f6ce2fd0204bd2a3fa765355194112 = $(`<div id="html_97f6ce2fd0204bd2a3fa765355194112" style="width: 100.0%; height: 100.0%;">Arthur ave</div>`)[0];
+            popup_d6daf23323d04ea8ad9ab9140d552817.setContent(html_97f6ce2fd0204bd2a3fa765355194112);
+        
+
+        marker_17809aee6d214f56ad03f3bdede9c5be.bindPopup(popup_d6daf23323d04ea8ad9ab9140d552817)
+        ;
+
+        
+    
+    
+            var marker_ce2840ff257e435b906ce5dc77b49c17 = L.marker(
+                [40.852855, -73.888521],
+                {}
+            ).addTo(map_1b2e6d73cba04e2282c9ae06ef093b9e);
+        
+    
+        var popup_f7e9bb7002cd4f199b97376879feb5b8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ca09373722df4e8e82b560e66e14a98c = $(`<div id="html_ca09373722df4e8e82b560e66e14a98c" style="width: 100.0%; height: 100.0%;">EAST 183RD STREET</div>`)[0];
+            popup_f7e9bb7002cd4f199b97376879feb5b8.setContent(html_ca09373722df4e8e82b560e66e14a98c);
+        
+
+        marker_ce2840ff257e435b906ce5dc77b49c17.bindPopup(popup_f7e9bb7002cd4f199b97376879feb5b8)
+        ;
+
+        
+    
+    
+            var marker_308911d30b5b40558d0ca950b66a1bbd = L.marker(
+                [40.85714, -73.886201],
+                {}
+            ).addTo(map_1b2e6d73cba04e2282c9ae06ef093b9e);
+        
+    
+        var popup_aa1da0fe5dfa4f00ac8e660e39642c9f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f8a51f7d2a6c47fa998d102f8d263880 = $(`<div id="html_f8a51f7d2a6c47fa998d102f8d263880" style="width: 100.0%; height: 100.0%;">Arthur Avenue</div>`)[0];
+            popup_aa1da0fe5dfa4f00ac8e660e39642c9f.setContent(html_f8a51f7d2a6c47fa998d102f8d263880);
+        
+
+        marker_308911d30b5b40558d0ca950b66a1bbd.bindPopup(popup_aa1da0fe5dfa4f00ac8e660e39642c9f)
+        ;
+
+        
+    
+    
+            var marker_9fa4cc1797e041919c270d17377869a0 = L.marker(
+                [40.853815, -73.888039],
+                {}
+            ).addTo(map_1b2e6d73cba04e2282c9ae06ef093b9e);
+        
+    
+        var popup_847f919b913345229e0adde95421f2a5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bf7360ae17174dfea52692e3213b51f8 = $(`<div id="html_bf7360ae17174dfea52692e3213b51f8" style="width: 100.0%; height: 100.0%;">Hughes Ave</div>`)[0];
+            popup_847f919b913345229e0adde95421f2a5.setContent(html_bf7360ae17174dfea52692e3213b51f8);
+        
+
+        marker_9fa4cc1797e041919c270d17377869a0.bindPopup(popup_847f919b913345229e0adde95421f2a5)
+        ;
+
+        
+    
+    
+            var marker_e248dd06a7d5455bb709e11bf5dc9821 = L.marker(
+                [40.855357, -73.887198],
+                {}
+            ).addTo(map_1b2e6d73cba04e2282c9ae06ef093b9e);
+        
+    
+        var popup_405c00ff964844b1bf93f9144e00b166 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ff3e940f87db490ea6c64d553c54aed2 = $(`<div id="html_ff3e940f87db490ea6c64d553c54aed2" style="width: 100.0%; height: 100.0%;">E 187th st</div>`)[0];
+            popup_405c00ff964844b1bf93f9144e00b166.setContent(html_ff3e940f87db490ea6c64d553c54aed2);
+        
+
+        marker_e248dd06a7d5455bb709e11bf5dc9821.bindPopup(popup_405c00ff964844b1bf93f9144e00b166)
+        ;
+
+        
+    
+    
+            var marker_d0b9e8abed1f485082ca6c9885a18155 = L.marker(
+                [40.854209, -73.886744],
+                {}
+            ).addTo(map_1b2e6d73cba04e2282c9ae06ef093b9e);
+        
+    
+        var popup_d0da1a8ec813471599dc064d861f69f4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0f238f3797a44b1fa97c2293cd72252d = $(`<div id="html_0f238f3797a44b1fa97c2293cd72252d" style="width: 100.0%; height: 100.0%;">Belmont Avenue</div>`)[0];
+            popup_d0da1a8ec813471599dc064d861f69f4.setContent(html_0f238f3797a44b1fa97c2293cd72252d);
+        
+
+        marker_d0b9e8abed1f485082ca6c9885a18155.bindPopup(popup_d0da1a8ec813471599dc064d861f69f4)
+        ;
+
+        
+    
+    
+            var marker_777ae807edb547d1ae7bb4dc5bcf04c7 = L.marker(
+                [40.853812, -73.887464],
+                {}
+            ).addTo(map_1b2e6d73cba04e2282c9ae06ef093b9e);
+        
+    
+        var popup_5472927358cb422bb6f190b520593de2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f476831c44fe4834ba81f56b76a19e27 = $(`<div id="html_f476831c44fe4834ba81f56b76a19e27" style="width: 100.0%; height: 100.0%;">CRESCENT AVENUE</div>`)[0];
+            popup_5472927358cb422bb6f190b520593de2.setContent(html_f476831c44fe4834ba81f56b76a19e27);
+        
+
+        marker_777ae807edb547d1ae7bb4dc5bcf04c7.bindPopup(popup_5472927358cb422bb6f190b520593de2)
+        ;
+
+        
+    
+    
+            var marker_da80967dc5534404a1a8f10dad879791 = L.marker(
+                [40.853819, -73.88908],
+                {}
+            ).addTo(map_1b2e6d73cba04e2282c9ae06ef093b9e);
+        
+    
+        var popup_75f0122331ca4753b4008af458cc2e40 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_76c88cb48e96444f9162e641e9888001 = $(`<div id="html_76c88cb48e96444f9162e641e9888001" style="width: 100.0%; height: 100.0%;">Arthur Ave.</div>`)[0];
+            popup_75f0122331ca4753b4008af458cc2e40.setContent(html_76c88cb48e96444f9162e641e9888001);
+        
+
+        marker_da80967dc5534404a1a8f10dad879791.bindPopup(popup_75f0122331ca4753b4008af458cc2e40)
+        ;
+
+        
+    
+    
+            var marker_65350028594b4b1da0f444a6af3531ae = L.marker(
+                [40.855467, -73.887414],
+                {}
+            ).addTo(map_1b2e6d73cba04e2282c9ae06ef093b9e);
+        
+    
+        var popup_03b0f87a9d2340b992552babcd491733 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_328109bc637240feb1265934769e8f15 = $(`<div id="html_328109bc637240feb1265934769e8f15" style="width: 100.0%; height: 100.0%;">East 187th Street</div>`)[0];
+            popup_03b0f87a9d2340b992552babcd491733.setContent(html_328109bc637240feb1265934769e8f15);
+        
+
+        marker_65350028594b4b1da0f444a6af3531ae.bindPopup(popup_03b0f87a9d2340b992552babcd491733)
+        ;
+
+        
+    
+    
+            var marker_5bbd7cd202e444ada995a3f9e0e523ea = L.marker(
+                [40.852855, -73.888521],
+                {}
+            ).addTo(map_1b2e6d73cba04e2282c9ae06ef093b9e);
+        
+    
+        var popup_b0140a660ef74554a2e49e6d137db470 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4dc43fc3fea742fca6daac7f30e6753e = $(`<div id="html_4dc43fc3fea742fca6daac7f30e6753e" style="width: 100.0%; height: 100.0%;">EAST 183RD STREET</div>`)[0];
+            popup_b0140a660ef74554a2e49e6d137db470.setContent(html_4dc43fc3fea742fca6daac7f30e6753e);
+        
+
+        marker_5bbd7cd202e444ada995a3f9e0e523ea.bindPopup(popup_b0140a660ef74554a2e49e6d137db470)
+        ;
+
+        
+    
+    
+            var marker_f12ef244dceb4bce852e2faefc98665c = L.marker(
+                [40.853855, -73.88728],
+                {}
+            ).addTo(map_1b2e6d73cba04e2282c9ae06ef093b9e);
+        
+    
+        var popup_397f8bf1847a41c5b4ad739f9cfaf5d5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_45973e62a7e34d10bf435f7b40201805 = $(`<div id="html_45973e62a7e34d10bf435f7b40201805" style="width: 100.0%; height: 100.0%;">629 CRESCENT AVENUE</div>`)[0];
+            popup_397f8bf1847a41c5b4ad739f9cfaf5d5.setContent(html_45973e62a7e34d10bf435f7b40201805);
+        
+
+        marker_f12ef244dceb4bce852e2faefc98665c.bindPopup(popup_397f8bf1847a41c5b4ad739f9cfaf5d5)
+        ;
+
+        
+    
+    
+            var marker_69dc04ec669f41f29a454dd6aaa3b0aa = L.marker(
+                [40.854436, -73.888512],
+                {}
+            ).addTo(map_1b2e6d73cba04e2282c9ae06ef093b9e);
+        
+    
+        var popup_a458e85204b541a4b09d7bebc6daaeea = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1f37a770334d4526a63d5b1f8dfb2137 = $(`<div id="html_1f37a770334d4526a63d5b1f8dfb2137" style="width: 100.0%; height: 100.0%;">2356 ARTHUR AVENUE</div>`)[0];
+            popup_a458e85204b541a4b09d7bebc6daaeea.setContent(html_1f37a770334d4526a63d5b1f8dfb2137);
+        
+
+        marker_69dc04ec669f41f29a454dd6aaa3b0aa.bindPopup(popup_a458e85204b541a4b09d7bebc6daaeea)
+        ;
+
+        
+    
+    
+            var marker_a3a67d1a85d34e61bfa3b603a72548cf = L.marker(
+                [40.858778, -73.885836],
+                {}
+            ).addTo(map_1b2e6d73cba04e2282c9ae06ef093b9e);
+        
+    
+        var popup_5483d5539c2848c9a367616775a201e1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_78ca2517ceb34dc0ad58dfc96eafac7e = $(`<div id="html_78ca2517ceb34dc0ad58dfc96eafac7e" style="width: 100.0%; height: 100.0%;">E FORDHAM RD</div>`)[0];
+            popup_5483d5539c2848c9a367616775a201e1.setContent(html_78ca2517ceb34dc0ad58dfc96eafac7e);
+        
+
+        marker_a3a67d1a85d34e61bfa3b603a72548cf.bindPopup(popup_5483d5539c2848c9a367616775a201e1)
+        ;
+
+        
+    
+    
+            var marker_0b1566adedd74cd6869528cf98304961 = L.marker(
+                [40.854075, -73.884164],
+                {}
+            ).addTo(map_1b2e6d73cba04e2282c9ae06ef093b9e);
+        
+    
+        var popup_3daff30ee84f48d39060d9e0f1012884 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_26886013262745ef8281f50f2d3e82b4 = $(`<div id="html_26886013262745ef8281f50f2d3e82b4" style="width: 100.0%; height: 100.0%;">187</div>`)[0];
+            popup_3daff30ee84f48d39060d9e0f1012884.setContent(html_26886013262745ef8281f50f2d3e82b4);
+        
+
+        marker_0b1566adedd74cd6869528cf98304961.bindPopup(popup_3daff30ee84f48d39060d9e0f1012884)
+        ;
+
+        
+    
+    
+            var marker_5999b07415554a03a944233ccaef7233 = L.marker(
+                [40.856517, -73.880787],
+                {}
+            ).addTo(map_1b2e6d73cba04e2282c9ae06ef093b9e);
+        
+    
+        var popup_19c8d92420fb4a0da3d2b3a7a2e83176 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4e2eb9cadf9146939e05b9b06c8f3e44 = $(`<div id="html_4e2eb9cadf9146939e05b9b06c8f3e44" style="width: 100.0%; height: 100.0%;">Southern Blvd</div>`)[0];
+            popup_19c8d92420fb4a0da3d2b3a7a2e83176.setContent(html_4e2eb9cadf9146939e05b9b06c8f3e44);
+        
+
+        marker_5999b07415554a03a944233ccaef7233.bindPopup(popup_19c8d92420fb4a0da3d2b3a7a2e83176)
+        ;
+
+        
+    
+    
+            var marker_5f4edf68ece143579ca505f781b57249 = L.marker(
+                [40.854075, -73.884164],
+                {}
+            ).addTo(map_1b2e6d73cba04e2282c9ae06ef093b9e);
+        
+    
+        var popup_38d98240872a434690a8ddfb9f6c0811 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_137cd88001f0486bab0c32a38fa41ac4 = $(`<div id="html_137cd88001f0486bab0c32a38fa41ac4" style="width: 100.0%; height: 100.0%;">709 EAST  187 STREET</div>`)[0];
+            popup_38d98240872a434690a8ddfb9f6c0811.setContent(html_137cd88001f0486bab0c32a38fa41ac4);
+        
+
+        marker_5f4edf68ece143579ca505f781b57249.bindPopup(popup_38d98240872a434690a8ddfb9f6c0811)
+        ;
+
+        
+    
+    
+            var marker_bd706261ef32474ca715df9402771923 = L.marker(
+                [40.854131, -73.888805],
+                {}
+            ).addTo(map_1b2e6d73cba04e2282c9ae06ef093b9e);
+        
+    
+        var popup_f6b1bde92fdd4411b67d42297790f770 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dc84b17b2c32486a82641fa9eb87ee1e = $(`<div id="html_dc84b17b2c32486a82641fa9eb87ee1e" style="width: 100.0%; height: 100.0%;">2331 ARTHUR AVENUE</div>`)[0];
+            popup_f6b1bde92fdd4411b67d42297790f770.setContent(html_dc84b17b2c32486a82641fa9eb87ee1e);
+        
+
+        marker_bd706261ef32474ca715df9402771923.bindPopup(popup_f6b1bde92fdd4411b67d42297790f770)
+        ;
+
+        
+    
+    
+            var marker_38ba88193752482184aad9db93d5d165 = L.marker(
+                [40.855453, -73.887349],
+                {}
+            ).addTo(map_1b2e6d73cba04e2282c9ae06ef093b9e);
+        
+    
+        var popup_97d073726f83486398005a5e3983de74 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_01463cd339434723b7ddbd4e0ab762d1 = $(`<div id="html_01463cd339434723b7ddbd4e0ab762d1" style="width: 100.0%; height: 100.0%;">605A EAST  187 STREET</div>`)[0];
+            popup_97d073726f83486398005a5e3983de74.setContent(html_01463cd339434723b7ddbd4e0ab762d1);
+        
+
+        marker_38ba88193752482184aad9db93d5d165.bindPopup(popup_97d073726f83486398005a5e3983de74)
+        ;
+
+        
+    
+    
+            var marker_36620ef397c24454900e008e11af3fb9 = L.marker(
+                [40.854414, -73.888555],
+                {}
+            ).addTo(map_1b2e6d73cba04e2282c9ae06ef093b9e);
+        
+    
+        var popup_5f88b60352144da9bb604fbffbda6afb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bcf7393cfce8497b87d5eac30c92bcd7 = $(`<div id="html_bcf7393cfce8497b87d5eac30c92bcd7" style="width: 100.0%; height: 100.0%;">2349 ARTHUR AVENUE</div>`)[0];
+            popup_5f88b60352144da9bb604fbffbda6afb.setContent(html_bcf7393cfce8497b87d5eac30c92bcd7);
+        
+
+        marker_36620ef397c24454900e008e11af3fb9.bindPopup(popup_5f88b60352144da9bb604fbffbda6afb)
+        ;
+
+        
+    
+    
+            var marker_7adcd2aaa0d44cde9770afff9ae4eebc = L.marker(
+                [40.854132, -73.88695],
+                {}
+            ).addTo(map_1b2e6d73cba04e2282c9ae06ef093b9e);
+        
+    
+        var popup_af590eb6f8ce4878a53667199db4cb98 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_87b9f3d3160f4e00956e902300a80889 = $(`<div id="html_87b9f3d3160f4e00956e902300a80889" style="width: 100.0%; height: 100.0%;">632 EAST  186 STREET</div>`)[0];
+            popup_af590eb6f8ce4878a53667199db4cb98.setContent(html_87b9f3d3160f4e00956e902300a80889);
+        
+
+        marker_7adcd2aaa0d44cde9770afff9ae4eebc.bindPopup(popup_af590eb6f8ce4878a53667199db4cb98)
+        ;
+
+        
+    
+    
+            var marker_8aded0d25eec46dc9874fbbd61400abf = L.marker(
+                [40.853779, -73.888072],
+                {}
+            ).addTo(map_1b2e6d73cba04e2282c9ae06ef093b9e);
+        
+    
+        var popup_a6098c1a109144e797abbba05a89392d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1e9d457f885f47beb01c2fa67213a0d6 = $(`<div id="html_1e9d457f885f47beb01c2fa67213a0d6" style="width: 100.0%; height: 100.0%;">2319 HUGHES AVENUE</div>`)[0];
+            popup_a6098c1a109144e797abbba05a89392d.setContent(html_1e9d457f885f47beb01c2fa67213a0d6);
+        
+
+        marker_8aded0d25eec46dc9874fbbd61400abf.bindPopup(popup_a6098c1a109144e797abbba05a89392d)
+        ;
+
+        
+    
+    
+            var marker_709b7df8c25345ee9c42e0a139a2f82b = L.marker(
+                [40.855813, -73.888068],
+                {}
+            ).addTo(map_1b2e6d73cba04e2282c9ae06ef093b9e);
+        
+    
+        var popup_f45d26bc46dc4a5db9e6127f5a0d4e12 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5a0d786189974def8c3bc4d279a19e7e = $(`<div id="html_5a0d786189974def8c3bc4d279a19e7e" style="width: 100.0%; height: 100.0%;">East 187 street</div>`)[0];
+            popup_f45d26bc46dc4a5db9e6127f5a0d4e12.setContent(html_5a0d786189974def8c3bc4d279a19e7e);
+        
+
+        marker_709b7df8c25345ee9c42e0a139a2f82b.bindPopup(popup_f45d26bc46dc4a5db9e6127f5a0d4e12)
+        ;
+
+        
+    
+    
+            var marker_6a12802d86144e25936600e23909429a = L.marker(
+                [40.853855, -73.88728],
+                {}
+            ).addTo(map_1b2e6d73cba04e2282c9ae06ef093b9e);
+        
+    
+        var popup_610fca4d416c499284f9de27d0bc5c48 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ffe4d76bd14b4d49bfefeab5a43edc57 = $(`<div id="html_ffe4d76bd14b4d49bfefeab5a43edc57" style="width: 100.0%; height: 100.0%;">629 CRESCENT AVENUE</div>`)[0];
+            popup_610fca4d416c499284f9de27d0bc5c48.setContent(html_ffe4d76bd14b4d49bfefeab5a43edc57);
+        
+
+        marker_6a12802d86144e25936600e23909429a.bindPopup(popup_610fca4d416c499284f9de27d0bc5c48)
+        ;
+
+        
+    
+    
+            var marker_9b393b0104f14bdf8f245810907f465e = L.marker(
+                [40.853756, -73.889134],
+                {}
+            ).addTo(map_1b2e6d73cba04e2282c9ae06ef093b9e);
+        
+    
+        var popup_94639709ba6842b4851ef01b194ef775 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e5f5625d83414dbca91a3743c723b3c5 = $(`<div id="html_e5f5625d83414dbca91a3743c723b3c5" style="width: 100.0%; height: 100.0%;">Arthur ave</div>`)[0];
+            popup_94639709ba6842b4851ef01b194ef775.setContent(html_e5f5625d83414dbca91a3743c723b3c5);
+        
+
+        marker_9b393b0104f14bdf8f245810907f465e.bindPopup(popup_94639709ba6842b4851ef01b194ef775)
+        ;
+
+        
+    
+    
+            var marker_8dcab4e6af8a4c3a84e04e4e5fff223f = L.marker(
+                [40.855128, -73.886743],
+                {}
+            ).addTo(map_1b2e6d73cba04e2282c9ae06ef093b9e);
+        
+    
+        var popup_4a01e4040166409786cbfd6a77271719 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d03a62ffc3994024b2b920e34a5b2c58 = $(`<div id="html_d03a62ffc3994024b2b920e34a5b2c58" style="width: 100.0%; height: 100.0%;">622 EAST  187 STREET</div>`)[0];
+            popup_4a01e4040166409786cbfd6a77271719.setContent(html_d03a62ffc3994024b2b920e34a5b2c58);
+        
+
+        marker_8dcab4e6af8a4c3a84e04e4e5fff223f.bindPopup(popup_4a01e4040166409786cbfd6a77271719)
+        ;
+
+        
+    
+    
+            var marker_58841fc0f819487db5587adf0290a449 = L.marker(
+                [40.85506, -73.886558],
+                {}
+            ).addTo(map_1b2e6d73cba04e2282c9ae06ef093b9e);
+        
+    
+        var popup_c3aeba984b8e4490817ee8f717a5e42e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_93e9a4bd3b5a478b96d1c3c87709c2c1 = $(`<div id="html_93e9a4bd3b5a478b96d1c3c87709c2c1" style="width: 100.0%; height: 100.0%;">East 187th Street</div>`)[0];
+            popup_c3aeba984b8e4490817ee8f717a5e42e.setContent(html_93e9a4bd3b5a478b96d1c3c87709c2c1);
+        
+
+        marker_58841fc0f819487db5587adf0290a449.bindPopup(popup_c3aeba984b8e4490817ee8f717a5e42e)
+        ;
+
+        
+    
+    
+            var marker_f4509799881d4c119176e4f9548c3545 = L.marker(
+                [40.854027, -73.88887],
+                {}
+            ).addTo(map_1b2e6d73cba04e2282c9ae06ef093b9e);
+        
+    
+        var popup_d368111559af4237ae30c5c45c99b4f8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_76fa63d7b1f74a8eb48c9fc5bb2d76b2 = $(`<div id="html_76fa63d7b1f74a8eb48c9fc5bb2d76b2" style="width: 100.0%; height: 100.0%;">arthur avenue</div>`)[0];
+            popup_d368111559af4237ae30c5c45c99b4f8.setContent(html_76fa63d7b1f74a8eb48c9fc5bb2d76b2);
+        
+
+        marker_f4509799881d4c119176e4f9548c3545.bindPopup(popup_d368111559af4237ae30c5c45c99b4f8)
+        ;
+
+        
+    
+    
+            var marker_91507f413cf14a1ab8cc2ddab748575c = L.marker(
+                [40.853855, -73.88728],
+                {}
+            ).addTo(map_1b2e6d73cba04e2282c9ae06ef093b9e);
+        
+    
+        var popup_edea8a6276b14bf9a107a59432adb430 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3dd3ad9734364ead8f8b8f03522024af = $(`<div id="html_3dd3ad9734364ead8f8b8f03522024af" style="width: 100.0%; height: 100.0%;">629 CRESCENT AVENUE</div>`)[0];
+            popup_edea8a6276b14bf9a107a59432adb430.setContent(html_3dd3ad9734364ead8f8b8f03522024af);
+        
+
+        marker_91507f413cf14a1ab8cc2ddab748575c.bindPopup(popup_edea8a6276b14bf9a107a59432adb430)
+        ;
+
+        
+    
+</script>
